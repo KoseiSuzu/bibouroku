@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "title": "Coming Soon Paper 01",
+      "meta": "Yamada Taro / Placeholder entry",
+      "tag": "Future",
+      "description": "A placeholder item for future publications.",
+      "links": {
+        "PDF": "docs/papers/sample-paper-01.pdf"
+      }
+    },
+    {
+      "title": "Coming Soon Paper 02",
+      "meta": "Yamada Taro / Placeholder entry",
+      "tag": "Future",
+      "description": "A placeholder item for future publications.",
+      "links": {
+        "PDF": "docs/papers/sample-paper-02.pdf"
+      }
+    }
+  ]
+}

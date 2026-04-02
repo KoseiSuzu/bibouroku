@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yamada Taro | Particle Theory</title>
+  <meta name="description" content="素粒子理論の個人研究用ホームページ" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <canvas id="particle-canvas" aria-hidden="true"></canvas>
+  <div class="bg-grid"></div>
+  <div class="bg-glow bg-glow-1"></div>
+  <div class="bg-glow bg-glow-2"></div>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="#top" class="brand">
+        <span class="brand-mark">∮</span>
+        <span class="brand-text">Yamada Taro</span>
+      </a>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#publications">Publications</a>
+        <a href="#notes">Notes</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero container">
+      <div class="hero-copy panel glass">
+        <p class="eyebrow">Particle Theory / Quantum Fields / Cosmology</p>
+        <h1>Yamada Taro</h1>
+        <p class="hero-text">
+          Graduate student in theoretical particle physics. This is a template homepage for GitHub Pages,
+          with a particle-inspired animated background and a structure that stays easy to manage even when
+          papers and notes increase over time.
+        </p>
+        <div class="hero-tags">
+          <span>Quantum Field Theory</span>
+          <span>Gauge Theory</span>
+          <span>Cosmology</span>
+        </div>
+      </div>
+
+      <aside class="hero-side panel glass">
+        <div class="orbital-card">
+          <div class="orbital-ring orbital-ring-1"></div>
+          <div class="orbital-ring orbital-ring-2"></div>
+          <div class="orbital-core"></div>
+        </div>
+        <div class="status-card">
+          <div>
+            <span class="status-label">Affiliation</span>
+            <strong>Department of Physics, XYZ University</strong>
+          </div>
+          <div>
+            <span class="status-label">Position</span>
+            <strong>Graduate Student</strong>
+          </div>
+          <div>
+            <span class="status-label">Interests</span>
+            <strong>QFT / Particle Theory / Gravity</strong>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <section id="about" class="container section-block">
+      <div class="section-heading">
+        <p class="section-kicker">01</p>
+        <h2>About</h2>
+      </div>
+      <div class="panel glass about-grid">
+        <div>
+          <p>
+            I am interested in formal aspects of quantum field theory, particle physics, and related structures in cosmology.
+            This page is currently a placeholder version, but it is already organized so that papers and notes can be added later
+            without editing the page layout itself.
+          </p>
+          <p>
+            In particular, publications and notes are managed through separate JSON files, while the actual PDFs are stored in dedicated folders.
+          </p>
+        </div>
+        <div class="info-card">
+          <dl>
+            <div><dt>Name</dt><dd>Yamada Taro</dd></div>
+            <div><dt>Affiliation</dt><dd>XYZ University</dd></div>
+            <div><dt>Position</dt><dd>Graduate Student</dd></div>
+            <div><dt>Keywords</dt><dd>QFT, gauge theory, cosmology</dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <section id="publications" class="container section-block">
+      <div class="section-heading with-actions">
+        <div>
+          <p class="section-kicker">02</p>
+          <h2>Publications</h2>
+        </div>
+        <div class="section-actions">
+          <input id="pub-search" class="search-input" type="search" placeholder="Search publications" />
+        </div>
+      </div>
+      <div id="pub-list" class="card-list"></div>
+    </section>
+
+    <section id="notes" class="container section-block">
+      <div class="section-heading with-actions">
+        <div>
+          <p class="section-kicker">03</p>
+          <h2>Notes & Materials</h2>
+        </div>
+        <div class="section-actions">
+          <input id="note-search" class="search-input" type="search" placeholder="Search notes" />
+        </div>
+      </div>
+      <div id="note-list" class="card-list"></div>
+    </section>
+
+    <section id="contact" class="container section-block">
+      <div class="section-heading">
+        <p class="section-kicker">04</p>
+        <h2>Contact</h2>
+      </div>
+      <div class="panel glass contact-grid">
+        <a class="contact-card" href="mailto:yamada@example.com">
+          <span class="contact-label">Email</span>
+          <strong>yamada@example.com</strong>
+        </a>
+        <a class="contact-card" href="https://github.com/yamada" target="_blank" rel="noopener noreferrer">
+          <span class="contact-label">GitHub</span>
+          <strong>github.com/yamada</strong>
+        </a>
+        <div class="contact-card">
+          <span class="contact-label">Affiliation</span>
+          <strong>Department of Physics, XYZ University</strong>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer container">
+    <p>© 2026 Yamada Taro. Built for GitHub Pages.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

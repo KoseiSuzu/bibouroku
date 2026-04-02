@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "title": "Quantum Field Theory Notes",
+      "meta": "Placeholder note",
+      "tag": "Notes",
+      "description": "A placeholder item for future lecture notes or reading notes.",
+      "links": {
+        "PDF": "docs/notes/qft-notes.pdf"
+      }
+    },
+    {
+      "title": "Gauge Theory Memo",
+      "meta": "Placeholder note",
+      "tag": "Notes",
+      "description": "A placeholder item for future notes.",
+      "links": {
+        "PDF": "docs/notes/gauge-theory-memo.pdf"
+      }
+    }
+  ]
+}
